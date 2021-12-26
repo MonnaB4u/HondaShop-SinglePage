@@ -1,0 +1,13 @@
+.line {
+    width: 50%;
+    height: 0px;
+    height: 0px;
+    border-bottom: 1px solid #000;
+    background-color: rgb(238, 20, 20);
+    margin: 3px;
+    display: inline-block;
+
+}
+.honda-sub-heading p{
+ font-size:20px;
+}
