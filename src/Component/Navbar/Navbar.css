@@ -6,3 +6,6 @@
     background: #e76f51;
     padding: 6px 40px;
 }
+.ml-auto{
+    margin-left: auto !important;
+}

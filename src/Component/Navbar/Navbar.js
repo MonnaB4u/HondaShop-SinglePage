@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
         <div className="navmain">
             <nav class="navbar navbar-light justify-content-between ">
-                <form class="form-inline mr-5 text-white ml-auto">
+                <form class="form-inline mr-5 text-white ml-auto ">
                     <a class="navbar-brand mr-5 text-white" href="/home">Home</a>
                     <a class="navbar-brand mr-5 text-white" href="/shop">Shop</a>
                     <a class="navbar-brand mr-5 text-white" href="/news">News</a>
                     <a class="navbar-brand mr-5 text-white" href="/contact">Contact</a>
-                    <button class="btn  my-2 my-sm-0 mr-5 text-white hondabtn" type="submit">Search</button>
+                    <button class="btn mx-3 my-2 my-sm-0 mr-5 text-white hondabtn border" type="submit">Search</button>
                 </form>
             </nav>
             <div className="">

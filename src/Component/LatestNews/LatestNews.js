@@ -13,29 +13,32 @@ const LatestNews = () => {
                     <p>Our most recent collection. See what's new</p>
                     <div className="line"></div>
                 </div>
-                <div className=" mt-4 row">
-                    <div className=" d-flex justify-content-center">
-                        <div className="honda-box mx-3 col-md-4 p-4">
-                            <img src={bike} alt="" className="img-fluid  " />
-                            <h4>Ducati XDIAVEL S-73</h4>
-                            <p>Ducati the XDiavel range by introducing two new versions for 2021: XDiavel Dark and XDiavel Black...</p>
-                            <button className="btn ">Read More</button>
-                        </div>
-                        <div className="honda-box mx-3 p-4">
-                            <img src={bike} alt="" className="img-fluid " />
-                            <h4>Motorcycles & Scooters</h4>
-                            <p>Electronic fuel injection system, 56mm elliptical throttle bodies.</p>
-                            <button className="btn ">Read More</button>
-                        </div>
-                        <div className="honda-box mx-3 p-4 ">
-                            <img src={bike} alt="" className="img-fluid" />
-                            <h4>2021 Honda CBR500R</h4>
-                            <p>3.5" TFT Colour Display, Ducati Power Launch, Cruise Control, Hands-Free, Full-Led Lighting, Backlit Handlebar Switches, Cornering ABS</p>
-                            <button className="btn ">Read More</button>
-                        </div>
+                <div className=" mt-4 row m-3 ">
 
+                    <div className="honda-box m-3 col-sm p-4">
 
+                        <img src={bike} alt="" className="img-fluid text-center  w-100" />
+                        <h4>Ducati XDIAVEL S-73</h4>
+                        <p>Ducati the XDiavel range by introducing two new versions for 2021: XDiavel Dark and XDiavel Black...</p>
+                        <button className="btn border">Read More</button>
                     </div>
+
+                    <div className="honda-box m-3 p-4 col-sm ">
+                        <img src={bike2} alt="" className="img-fluid w-100" />
+                        <h4>Motorcycles & Scooters</h4>
+                        <p>Electronic fuel injection system, 56mm elliptical throttle bodies.</p>
+                        <button className="btn border">Read More</button>
+                    </div>
+
+                    <div className="honda-box m-3 p-4 col-sm ">
+                        <img src={bike3} alt="" className="img-fluid w-100" />
+                        <h4>2021 Honda CBR500R</h4>
+                        <p>3.5" TFT Colour Display, Ducati Power Launch, Cruise Control, Hands-Free, Full-Led Lighting, Backlit Handlebar Switches, Cornering ABS</p>
+                        <button className="btn border ">Read More</button>
+                    </div>
+
+
+
 
                 </div>
             </div>

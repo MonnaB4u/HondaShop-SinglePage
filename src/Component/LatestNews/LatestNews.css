@@ -1,12 +1,14 @@
 .honda-box {
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
     margin-bottom: 10px;
-    box-shadow: 1px 1px 0px 1px rgb(231, 224, 224);
+    box-shadow: 0px 0px 3px 1px rgb(231, 224, 224);
 }
 
 .btn {
-    border: 1px solid black;
+    border: 1px solid #e76f51;
+    background:none;
+    padding: 5px 20px;
 }
 
 .btn:hover {

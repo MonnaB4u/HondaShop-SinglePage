@@ -10,7 +10,7 @@ const Header = () => {
                         <small className="textres">Computer-controlled digital transistorized with electronic advance</small>
                         <h1 >Honda CBR 300R</h1>
                         <p className=" ">A single is the perfect choice for a bike like the CBR300R. It's light, simple, fuel efficient and features a broad powerband with plenty of low-revving torque—just what you want in your first motorcycle, but geared for comfortable cruising at highway speeds.</p>
-                        <button className="btn hondabtn2">See Details</button>
+                        <button className="btn hondabtn2 text-white border" >See Details</button>
                     </div>
                     <div class=" col">
                         <img src={img} className="img-fluid" alt="" />
